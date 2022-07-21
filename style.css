@@ -1,0 +1,493 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*------------
+--------- style of first main section ---------------------- */
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.top-banner {
+    margin-top: 50px;
+    display: flex;
+    padding: 50px 60px 0px 60px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 20px;
+
+}
+
+.div-item {
+    width: 50%;
+}
+
+.div-text {
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+.header-text {
+    font-size: 65px;
+    margin-bottom: 0%;
+    color: rgb(251, 249, 247);
+}
+
+.div-item p {
+    font-size: 16px;
+    color: rgb(251, 249, 247);
+}
+
+.press-btn {
+    margin-top: 10px;
+    padding: 12px 22px;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: rgb(200, 22, 22);
+    color: rgb(225, 223, 218);
+    border: 2px solid rgb(227, 227, 227);
+
+}
+
+
+.icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.div-item img {
+    width: 100%;
+}
+
+/*--------------------
+--------------- styles of second main section ----------------------
+- */
+.top {
+    margin-top: 100px;
+}
+
+.main-div {
+    display: flex;
+}
+
+
+.btn-item {
+    width: 250px;
+    height: 265px;
+    margin-right: 27px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.link-item {
+    color: aquamarine;
+}
+
+.link-item a {
+    border: 2px solid white;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#blog-link-1 a {
+    padding: 10px 25px;
+}
+
+#blog-link-2 a {
+    padding: 10px 59px;
+}
+
+#blog-link-3 a {
+    padding: 10px 80px;
+    background-color: red;
+}
+
+/*-------------------
+---------- blogs style ---------------
+------------- */
+.all-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.img-blog img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blog {
+    border: 1px solid rgb(243, 237, 237);
+    border-radius: 10px;
+}
+
+.text-blog {
+    margin: 15px 0px 15px 15px;
+}
+
+.player-btn {
+
+    padding: 4px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(251, 251, 251);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.div-icon {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field {
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+.last-btn {
+    text-align: center;
+}
+
+.u-btn {
+    padding: 15px 30px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+
+
+/* footer section style -----------
+ -------*/
+footer {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background-color: rgb(22, 20, 20);
+}
+
+.fo-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-class {
+    margin-top: 100px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    margin-top: 30px;
+    width: 75%;
+    border: 1px solid gray;
+}
+
+.footer-documents {
+    width: 50%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fo-text p {
+    padding-left: 20px;
+    color: rgb(152, 148, 148);
+}
+
+/* social icons style --
+-------- */
+.social-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.l-icon {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(72, 52, 92);
+}
+
+/* use mediaquary for responsive -----------
+----------------- */
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .top-banner {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .div-item {
+        width: 300px;
+    }
+
+    .header-text {
+        font-size: 30px;
+        color: rgb(213, 78, 206);
+    }
+
+    .press-btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        padding: 15px 35px;
+        border: none;
+        color: rgb(224, 220, 220);
+        background-color: rgb(115, 5, 60);
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    /*-----------------
+    ------------ second section style -----------------
+    -------------------- */
+    .top {
+        margin-top: 30px;
+    }
+
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-item {
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+
+    /*----- btn box er color change ----------- */
+    #blog-link-1 a {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+    }
+
+    #blog-link-2 a {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+    }
+
+    .all-blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*---------
+    -- style img of blogs ------------
+    ----------- */
+    .img-blog img {
+        width: 100%;
+    }
+
+    /* live button ------------- */
+    .last-btn {
+        display: none;
+        text-align: center;
+    }
+
+    .u-btn {
+        border-radius: 10px;
+        padding: 15px 30px;
+        background-color: rgb(202, 52, 52);
+        color: aliceblue;
+        font-size: 22px;
+
+    }
+
+    /* footer items -------------
+------------ */
+    footer {
+        height: 790px;
+        background-color: rgb(55, 55, 56);
+    }
+
+
+    .fo-text p {
+        color: rgb(190, 242, 227);
+        font-size: 22px;
+    }
+
+    .footer-documents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .l-icon {
+        color: rgb(218, 218, 218);
+        font-size: 40px;
+    }
+}
+
+/* ---------------
+---------use to mediaquary for tablets --------------------
+------- */
+@media only screen and (min-width:601px) and (max-width:900px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .top-banner {
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .press-btn {
+        margin-bottom: 20px;
+    }
+
+    .div-item img {
+        margin-top: 60px;
+    }
+
+    /* second section style for responsive  */
+    .main-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-box {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-item {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        background-color: aliceblue;
+    }
+
+    #blog-link-1 a {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+    }
+
+    #blog-link-2 a {
+        background-color: white;
+        color: black;
+        border: 1px solid gray;
+    }
+
+    #blog-link-3 a {
+        font-size: 22px;
+        background-color: rgb(198, 51, 234);
+        color: rgb(204, 255, 195);
+    }
+
+    .btn-item a {
+        display: flex;
+        justify-items: center;
+        margin-top: 25px;
+    }
+
+    /* blog elements style ----------------
+-------- */
+    .all-blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-blog img {
+        width: 100%;
+    }
+
+    #last-blog {
+        display: none;
+    }
+
+    .last-btn {
+        text-align: center;
+    }
+
+    .u-btn {
+        border-radius: 10px;
+        padding: 15px 30px;
+        background-color: rgb(183, 5, 5);
+        color: aliceblue;
+        font-size: 22px;
+
+    }
+
+    /* fooet style --------------
+    ------------ */
+    footer {
+        height: 455px;
+    }
+
+    .footer-documents {
+        display: flex;
+    }
+
+    .social-icon a .l-icon {
+        color: rgb(100, 35, 81);
+        font-size: 40px;
+    }
+}
+
+/* use mediaquary for desktop view -------------
+----------- */
+@media only screen and (min-width:901px) and (max-width:1400px) {
+    .container {
+        width: 1150px;
+        margin: 0 auto;
+    }
+
+    .top {
+        margin-top: 100px;
+    }
+
+    .last-btn {
+        display: none;
+        text-align: center;
+    }
+
+    .u-btn {
+        border-radius: 10px;
+        padding: 15px 30px;
+        background-color: rgb(183, 5, 5);
+        color: aliceblue;
+        font-size: 22px;
+
+    }
+
+}
